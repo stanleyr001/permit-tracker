@@ -1,9 +1,10 @@
 body {background-color: #6DABDC;}
 
-.btn-lg {width: 200px;}
+.btn-lg {margin-top: 10px; width: 200px;}
 .col-md-2 > h3 {text-align: center;}
+.col-md-3 {text-align: left;}
 .col-md-4 {text-align: center;}
-.col-md-8 > h3 {text-align: center;}
+.col-md-8 {text-align: center;}
 .jumbotron {background-color: #226DA7;}
 .navbar-default  {background-color: #6DABDC; border-color: #6DABDC;}
 .navbar-default .container {background-color: #DDEEFC;}
