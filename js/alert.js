@@ -3,4 +3,5 @@ $("#alert-button").click(function() {
     $("#alert-info").show();
     $("#tracker").removeClass("alert-success");
     $("#tracker").addClass("alert-danger");
+    console.log("Testing...");
 });
