@@ -6,10 +6,31 @@
 
     <title>TRPA Permit Tracker</title>
 
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/permit.tracker.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .progress-bar-warning {
+            background-color: #f0ad4e;
+            color: #ffffff;
+        }
+
+        .progress-bar-info {
+            color: #ffffff;
+        }
+
+        .progress-bar-danger {
+            background-color: #d9534f;
+        }
+
+        .progress-bar-success {
+            color: #ffffff;
+        }
+
+        .alert {
+            border-color: #eee;
+        }
+
+    </style>
+
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -29,22 +50,22 @@
 </nav>
 <div class="container">
     <div class="jumbotron row">
-        <div class="col-md-2 alert alert-success">
+        <div class="col-md-2 alert progress-bar-success">
             <h3>Application Submitted</h3>
         </div>
-        <div class="col-md-2 alert alert-success">
+        <div class="col-md-2 alert progress-bar-success">
             <h3>Pre-Review Check</h3>
         </div>
-        <div class="col-md-2 alert alert-success">
+        <div class="col-md-2 alert progress-bar-success">
             <h3>Permit Review</h3>
         </div>
-        <div class="col-md-2 alert alert-success">
+        <div class="col-md-2 alert progress-bar-success">
             <h3>Conditional Permit</h3>
         </div>
-        <div class="col-md-2 alert alert-success">
+        <div class="col-md-2 alert progress-bar-success">
             <h3>Permit Inspection</h3>
         </div>
-        <div class="col-md-2 alert alert-success">
+        <div id="tracker" class="col-md-2 alert progress-bar-success">
             <h3>Permit Complete</h3>
         </div>
     </div>
